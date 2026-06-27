@@ -36,11 +36,3 @@ matches the skill's trigger (e.g. "teach me how X works").
 npx skills check     # see which installed skills have updates
 npx skills update    # pull the latest version of installed skills
 ```
-
-## Add a new skill to this repo
-
-1. Create a folder: `skills/<your-skill-name>/`
-2. Add a `SKILL.md` with YAML frontmatter (`name`, `description`) followed by the
-   skill instructions.
-3. Commit and push. It's instantly installable via
-   `npx skills add YIOrainy/my-skills@<your-skill-name>`.
